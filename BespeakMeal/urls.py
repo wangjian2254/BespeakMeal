@@ -11,7 +11,7 @@ urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'BespeakMeal.views.home', name='home'),
     # url(r'^BespeakMeal/', include('BespeakMeal.foo.urls')),
-     (r'^clientLogin/$',clientLogin),
+     url(r'^clientLogin/$',clientLogin),
 
     # Uncomment the admin/doc line below to enable admin documentation:
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

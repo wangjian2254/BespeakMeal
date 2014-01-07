@@ -6,7 +6,7 @@ import json
 from django.contrib.auth.models import AnonymousUser
 from django.http import HttpResponse
 import math
-from Sell3_server.settings import DEVICEID
+#from Sell3_server.settings import DEVICEID
 from bespeak.models import Ztperm
 
 
