@@ -54,7 +54,7 @@ def getResult(success,message,result=None,status_code=200):
     map={'success':success,'message':message, 'status_code':status_code}
     if result:
         map['result']=result
-    return HttpResponse(json.dumps(map))
+    return HttpResponse(json.dumps(map),'application/json')
 
 def rad(d):
     d=float(d)
