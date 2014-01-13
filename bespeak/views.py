@@ -19,6 +19,7 @@ def saveUserInfo(request):
     if 0 == User.objects.filter(username=username).count():
         user = User()
         user.set_password('111111')
+        user.username = username
     else:
         user = User.objects.get(username=username)
 
