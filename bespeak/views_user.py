@@ -33,4 +33,7 @@ def clientLogin(request):
         else:
             return getResult(False,u'用户名密码错误')
 
+def noLogin(request):
+    return getResult(False,'未登录')
+
   
